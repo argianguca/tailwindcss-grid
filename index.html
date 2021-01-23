@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/tailwind.css">
+    <title>Coba Tailwind</title>
+</head>
+<body>
+<div class="bg-white min-h-screen flex items-center justify-center">
+    <!--GRID-->
+    <div class="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 text-center">
+        <!--COLUMN SPAN 3 AND PULSE ANIMATION-->
+        <div class="bg-purple-600 p-3 col-span-3 text-white rounded-lg animate-pulse">Pulse Animaton</div>
+        
+        <!--NORMAL GRID-->
+        <div class="bg-blue-400 p-3 text-white rounded-lg">2</div>
+        
+        <!--GRADIENT BACKGROUND COLOR AND AN IMAGE-->
+        <div class="bg-gradient-to-r from-green-400 to-blue-500 p-3  row-span-3 text-white rounded-lg">Gradient
+            <img src="public/images/robot.svg" class="block">
+        </div>
+
+        <!--NORMAL GRID-->
+        <div class="bg-green-300 p-3 text-white rounded-lg">4</div>
+       
+        <!--HOVER ANIMATION-->
+        <div class="bg-white p-3 rounded-lg hover:bg-red-300 hover:text-white">Hover Me</div>
+        
+        <!--FOCUS ANIMATION-->
+        <button href="#" class="focus:bg-yellow-400 focus:outline-none focus:ring-yellow-300 rounded-lg p-2">Focus on Me</button>
+        
+        <!--BOUNCE ANIMATION-->
+        <div class="bg-yellow-400 text-white p-3 rounded-lg animate-bounce">Bounce</div>
+        
+        <!--ROW SPAN 2-->
+        <div class="bg-green-900 p-3 text-white row-span-2 rounded-lg">8</div>
+        
+        <!--NORMAL GRID-->
+        <div class="bg-red-600 p-3 col-span-2 text-white rounded-lg">9</div>
+    </div>
+
+</div>
+</body>
+</html>
